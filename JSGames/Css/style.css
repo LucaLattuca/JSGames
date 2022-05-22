@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(0, 0, 0, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod;
+    background-image: url("/images/stock-photo-html-front-end-web-developing-programming-language-for-website-coding-mixed-media-background-1934938565.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+         background-blend-mode:multiply;
+         
+    
+}
+
+ *{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+article {
+    padding: 10px 10px 10px 10px;
+    border: 5px ridge goldenrod;
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 242, 226);
+    margin-left: 180px;
+}
+
+article h1{
+    margin-top: 0;
+}
+    
+.main {
+    padding: 20px 0px 20px 180px ;
+}
+.sidenav{
+    height: 100%; 
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 0px;
+    border-right: goldenrod ridge 5px;
+    padding-right: 10px;
+
+}
+
+.sidenav a {
+    padding: 6px 18px 6px 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 200%;
+    color: goldenrod;
+    display: block;
+    border:5px ridge goldenrod ;
+    
+}
+
+.sidenav h1 {
+    
+    top: 0;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0;
+    border: 5px ridge goldenrod;
+    background-color: rgb(64, 61, 71);
+}
+   
+   .main img{
+       border: 5px ridge gold;
+      float: left;
+      
+   }
+   .main a{
+    text-decoration: none;
+    color: goldenrod;
+    
+   }
+   .main div{
+      display: inline-block;
+      margin: 50px 50px 50px 50px;
+      
+   }
+   
+
+
+

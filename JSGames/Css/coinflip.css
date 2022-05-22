@@ -1,0 +1,82 @@
+h1,h2{
+    text-align: center;
+}
+
+p{
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 40%;
+  color: black;
+}
+.container{
+    background-color: rgb(42, 41, 40);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:  50%;
+    left: 50%;
+
+    
+    border: 5px ridge goldenrod;
+}
+
+#coin {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+      transition: transform 1s ease-in;
+      transform-style: preserve-3d;
+}
+
+.side {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+.head {
+    background-color: gold;
+    border: 10px solid goldenrod;
+    z-index: 10;
+    
+}
+
+.tail  {
+    background-color: gold;
+    border: 10px solid goldenrod;
+    transform: rotateX(-180deg);
+}
+
+
+.flipHead {
+    animation: resultHead 2s ease-out forwards;
+}
+
+.flipTail{
+    animation: resultTail 2s ease-out forwards;
+}
+
+@keyframes resultHead {
+    from {
+      transform: rotateX(0);
+    }
+    to {
+      transform: rotateX(1800deg);
+    }
+  }
+
+  @keyframes resultTail {
+    from {
+      transform: rotateX(0);
+    }
+    to {
+      transform: rotateX(1980deg);
+    }
+  }

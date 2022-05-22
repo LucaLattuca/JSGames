@@ -1,0 +1,34 @@
+
+body{
+    color: goldenrod;
+}
+h1{
+    text-align: center;
+}
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border: 3px ridge goldenrod;
+}
+
+#scoreText{
+    font-family: monospace;
+    font-size: 100px;
+}
+
+#resetButton{
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width:80px;
+    height: 50px;
+    border: 4px ridge goldenrod;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+

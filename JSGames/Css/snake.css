@@ -1,0 +1,22 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+  
+
+}
+  body h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: goldenrod;
+    border: goldenrod 5px ridge;
+    padding: 5px;
+  }
+canvas{
+  box-shadow: black 20px 10px 50px;
+  background-color: rgb(25, 25, 25);
+  
+}
